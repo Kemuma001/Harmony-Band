@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Official webpage of Harmony Heights, featuring our latest music, tour dates, and exclusive content for our fans.">
+    <title>Harmony Heights: Feel the Music</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #ffd700;
+            border-bottom: 3px solid #ffd700;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        .intro {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 30px 0;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .band-photos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .band-photos img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        .band-photos img:hover {
+            transform: scale(1.05);
+        }
+        audio, video {
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: rgba(255,255,255,0.1);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ffed4e;
+        }
+        .social-links {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        form {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        input[type="submit"] {
+            background: #ffd700;
+            color: #667eea;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        input[type="submit"]:hover {
+            background: #ffed4e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Harmony Heights</h1>
+        
+        <div class="intro">
+            <p>We are Harmony Heights, a band that blends genres to create unique sounds. Our journey through music has been incredible, and we're excited to share it with you.</p>
+        </div>
+        
+        <div class="band-photos">
+            <img src="https://edube.org/uploads/media/default/0001/04/band-photo.jpg" alt="Harmony Heights Band Photo">
+            <img src="https://edube.org/uploads/media/default/0001/04/member1-amy.jpg" alt="Harmony Heights Vocals/Sampling: Amy Duncan">
+            <img src="https://edube.org/uploads/media/default/0001/04/member2-john.jpg" alt="Harmony Heights Bass/Guitars: John Smith">
+            <img src="https://edube.org/uploads/media/default/0001/04/member3-trevor.jpg" alt="Harmony Heights Drums: Trevor G.">
+        </div>
+        
+        <h2>Listen to Our Latest Tracks</h2>
+        <audio controls>
+            <source src="https://edube.org/uploads/media/default/0001/04/track1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <h2>Watch Our Performances</h2>
+        <video controls>
+            <source src="https://edube.org/uploads/media/default/0001/04/performance1.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        
+        <h2>Upcoming Tour Dates</h2>
+        <ul>
+            <li>March 12, 2029, Orlando, FL - <a href="https://example.com/purchase-tickets-harmony-heights-orlando" target="_blank">Get Tickets</a></li>
+            <li>March 14, 2029, Salt Lake City, UT - <a href="https://example.com/purchase-tickets-harmony-heights-slc" target="_blank">Get Tickets</a></li>
+        </ul>
+        
+        <h2>Follow Us</h2>
+        <p>Stay updated with our latest news and releases:</p>
+        <div class="social-links">
+            <a href="https://www.example.com/faceblock/hh" target="_blank">Faceblock</a><br>
+            <a href="https://www.example.com/instagrump/hh" target="_blank">Instagrump</a><br>
+            <a href="https://www.example.com/twotter/hh" target="_blank">Twotter</a>
+        </div>
+        
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject"><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
